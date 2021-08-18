@@ -5,7 +5,7 @@
   "main": "tdd.js",
   "scripts": {
     "test": "jest",
-    "babel-jest": "^24.8.0"
+    "jest:watch": "jest --watch"
   },
   "author": "",
   "license": "ISC",
