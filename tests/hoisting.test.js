@@ -18,8 +18,9 @@ describe("hoisting", () => {
   describe("when variable is declared with with const", () => {
     describe("when it is declared after the function call", () => {
       it("will throw an error", () => {
+        //why does this test fail?
         function test() {
-          return teddy;
+          console.log(teddy);
         }
         const teddy = "bear";
 
