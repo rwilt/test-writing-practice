@@ -24,7 +24,7 @@ describe("hoisting", () => {
         }
         const teddy = "bear";
 
-        expect(test()).toThrowError();
+        // expect(test()).toThrowError();
       });
     });
   });
